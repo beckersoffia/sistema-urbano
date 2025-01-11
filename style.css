@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E0FBFC; /* Azul muito claro */
+    color: #0D3B66; /* Azul escuro */
+}
+
+/* Header Section */
+.header {
+    background-color: #0D3B66; /* Azul escuro */
+    text-align: center;
+    padding: 20px;
+}
+
+.header img.bem-vindo-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h1 {
+    color: #107DAC; /* Azul médio */
+}
+
+.content p {
+    color: #4D9DE0; /* Azul claro */
+}
+
+/* Buttons */
+button {
+    background-color: #107DAC; /* Azul médio */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4D9DE0; /* Azul claro */
+}
+
+/* Table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #F0F8FF; /* Azul quase branco */
+}
+
+table th, table td {
+    border: 1px solid #ADCFFF; /* Azul céu */
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #107DAC; /* Azul médio */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #CAF0F8; /* Azul bebê */
+}
